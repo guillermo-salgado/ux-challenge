@@ -1,0 +1,6 @@
+<ul class="navbar-nav mr-auto" [ngClass]="{'navbar-nav-vertical': display === 'vertical'}">
+  <li class="nav-item" [ngClass]="{'nav-item-active': item.active}"
+    *ngFor="let item of items">
+    <a class="nav-link" href="#">{{item.title}}</a>
+  </li>
+</ul>

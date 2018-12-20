@@ -1,0 +1,13 @@
+// Navbar
+$navbar-background-color:             rgb(247, 247, 247) !default;
+
+// Nav
+$nav-link-color:                      rgb(155, 155, 155) !default;
+$nav-active-background-color:         rgb(255, 66, 66) !default;
+$nav-active-shadow-background-color:  rgb(191, 22, 22) !default;
+$nav-active-vertical-shadow:          12px 0px 5px 0px $nav-active-shadow-background-color !default;
+$nav-active-horizontal-shadow:        0px 12px 5px 0px $nav-active-shadow-background-color !default;
+
+// Miscellaneous
+$color-gray:                          rgb(240, 240, 240) !default;
+$color-white:                         rgb(255, 255, 255) !default;

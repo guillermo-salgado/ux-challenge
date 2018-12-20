@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ux-challenge';
+
+  navItems = [
+    {
+      'title': 'View Availability',
+      'active': false
+    },
+    {
+      'title': 'Gify Certificates',
+      'active': true
+    },
+    {
+      'title': 'General Information',
+      'active': false
+    },
+    {
+      'title': 'Loyalty Program & Wine',
+      'active': false
+    }
+  ];
 }

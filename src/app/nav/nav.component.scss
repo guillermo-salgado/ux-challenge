@@ -1,0 +1,73 @@
+@import '../variables.scss';
+
+.navbar-nav {
+  width: 100%;
+  border-radius: 10px;
+  background-color: $navbar-background-color;
+}
+
+.nav-link {
+  color: $nav-link-color;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav-item {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $color-gray;
+  border-right: 0px;
+
+  @media only screen and (min-width: 768px){
+	  & {
+      border-right: 1px solid $color-gray;;
+      border-bottom: 0px;
+    }
+	}
+
+  &:hover {
+    @extend %nav-item-active-horizontal;
+  }
+}
+
+.nav-item-active {
+  @extend %nav-item-active-horizontal;
+}
+
+%nav-item-active-horizontal {
+  background-color: $nav-active-background-color;
+  box-shadow: $nav-active-vertical-shadow;
+  border-bottom: 0px;
+  border-right: 0px;
+
+  @media only screen and (min-width: 768px){
+	  & {
+      box-shadow: $nav-active-horizontal-shadow;
+	  }
+	}
+
+  a {
+    color: $color-white;
+  }
+}
+
+.navbar-nav-vertical {
+  .nav-item {
+    border-bottom: 1px solid $color-gray;;
+    border-right: 0px;
+    &:hover {
+      @extend %nav-item-active-vertical;
+    }
+  }
+
+  .nav-item-active {
+    @extend %nav-item-active-vertical;
+  }
+}
+
+%nav-item-active-vertical {
+  box-shadow: $nav-active-vertical-shadow;
+  border-bottom: 0px;
+  border-right: 0px;
+}

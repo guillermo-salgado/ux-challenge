@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+$color-gray: rgb(0,0,0) !default;
+
+.navbar {
+  background-color: $navbar-background-color;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 10px 0px;
+
+  .navbar-toggler {
+    margin-left: 10px;
+  }
+
+  @media only screen and (min-width: 768px){
+	  & {
+      padding: 0px;
+    }
+	}
+}
+
+.full-width {
+  width: 100%;
+}
