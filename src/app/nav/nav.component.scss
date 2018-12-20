@@ -10,12 +10,13 @@
   color: $nav-link-color;
   text-transform: uppercase;
   text-align: center;
+  font-size: 10px;
 }
 
 .nav-item {
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid $color-gray;
   border-right: 0px;
 
