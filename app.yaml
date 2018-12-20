@@ -1,0 +1,22 @@
+runtime: python27
+threadsafe: true
+
+skip_files:
+- ^node_modules$
+
+handlers:
+- url: /(.*\.js)
+  static_files: dist/ux-challenge/\1
+  upload: dist/ux-challenge/(.*\.js)
+
+- url: /(.*\.css)
+  static_files: dist/ux-challenge/\1
+  upload: dist/ux-challenge/(.*\.css)
+
+- url: /favicon.ico
+  static_files: dist/ux-challenge/favicon.ico
+  upload: dist/ux-challenge/favicon.ico
+
+- url: /
+  static_files: dist/ux-challenge/index.html
+  upload: dist/ux-challenge/index.html
