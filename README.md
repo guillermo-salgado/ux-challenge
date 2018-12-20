@@ -1,6 +1,6 @@
 # See on action
 
-The project was deployed on GCP: [URL](https://ux-challenge.appspot.com/) version 7.0.2.
+The project was deployed on GCP: [URL](https://ux-challenge.appspot.com/).
 
 # UxChallenge
 
