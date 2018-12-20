@@ -1,3 +1,7 @@
+# See on action
+
+The project was deployed on GCP: [URL](https://ux-challenge.appspot.com/) version 7.0.2.
+
 # UxChallenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
